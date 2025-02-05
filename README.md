@@ -1,1 +1,2 @@
 # odin-recipes
+This project will demonstrate a cumulation of all the HTML skills I have thus far learned. I will create a basic HTML page that introduces a traditional Taiwanese recipe, Lu Rou Fan. In this project, I will implement basic HTML elements including text styles, paragraph styles, and embedded links and images.x
