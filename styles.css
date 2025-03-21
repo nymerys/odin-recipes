@@ -1,5 +1,42 @@
 /* styles.css */
-div {
-    color: aqua;
-    background-color: blueviolet;
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #dddddd;
+}
+body {
+    background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/49bb5373-3f86-4cc8-b341-1ed3a9ae07e0/dga1e1s-bd805a9a-f310-4a9e-98cf-c24f397bd08a.png/v1/fill/w_1920,h_1078,q_80,strp/luminous_night_market_by_vestesta_dga1e1s-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTA3OCIsInBhdGgiOiJcL2ZcLzQ5YmI1MzczLTNmODYtNGNjOC1iMzQxLTFlZDNhOWFlMDdlMFwvZGdhMWUxcy1iZDgwNWE5YS1mMzEwLTRhOWUtOThjZi1jMjRmMzk3YmQwOGEucG5nIiwid2lkdGgiOiI8PTE5MjAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.pc_g7HbyzZIy72Lte9zEY_tsBHAKZeYgsvIW_Z9MyrE);
+    background-size: cover;
+}
+/* visited link */
+a:visited {
+    color: #7e7e7e;
+    text-decoration: none;
+}
+/* unvisited link */
+a:link {
+    color: #dddddd;
+    text-decoration: none;
+}
+/* hover link */
+a:hover {
+    color:#ffffff;
+    text-decoration: underline;
+    text-shadow: #ffbf00 0 0 7px, #ffbf00 0 0 7px, #ffbf00 0 0 7px, #ffbf00 0 0 7px, #ffbf00 0 0 7px, #ffbf00 0 0 7px;
+    transition: 0.3s ease-in;
+}
+h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+    padding-top: 10px;
+    font-size: 50px;
+}
+.dish {
+    font-weight: 100;
+    text-align: center;
+    background-color: rgb(0 0 0 / 0.5);
+}
+.image {
+    padding: 1px;
+    background-color: rgb(0 0 0 / 0.5);
 }
